@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-item {
+      /* @apply  transition duration-300 ease-in-out hover:border-b-2 hover:border-indigo-600 */
+      @apply hover:text-cyan-400 transition
+    }
+    .nav-item-active {
+        @apply hover:text-cyan-400 transition
+      }
+}
